@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="/sumscribe" method="post">
+        <div class="container">
+            <div class="input-group">
+                <label for="ticketID">Ticket ID</label>
+                <input type="search" id="ticketID" name="ticketID" placeholder="Enter the ticket ID here" size="30" style="line-height: 25px;">
+            </div>
+            <button class="submit-button" type="submit" style="width: 150px; height: 30px; background-color: rgb(10, 172, 78); color: white; border: none; padding: 0;">Submit</button>
+            {% if summary %}
+            <div class="response">
+                <h2>Transcription and summary saved to Zendesk. Here is the summary:</h2>
+                <p>{{ summary }}</p>
+            </div>
+            {% endif %}
+            {% if error %}
+            <div class="response">
+                <p>{{ error }}</p>
+            </div>
+            {% endif %}
+        </div>
+    </form>
+{% endblock %}
