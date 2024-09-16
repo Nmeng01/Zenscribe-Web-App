@@ -1,16 +1,12 @@
-# Zenscribe-Web-App
-Front-facing application utilizing original Zenscribe script
+# Zenscribe Web App
 
-## How to run locally without using git commands
+## Purpose
 
-- [Install VS Code](https://code.visualstudio.com/download)
-- Ensure you have installed python
-- [Install pipenv](https://pypi.org/project/pipenv/)
-- Download a zip file of this repository by clicking the green Code button above
-- Unzip this file and place the project somewhere in your file explorer that is easily accessible
-- Open the project in VS Code and create a new file called .env. Correspond with me directly about what to put in this file. Make sure to save it.
-- Once .env file is set up, open up your Command Prompt or use the one in VS Code and navigate into the project by entering cd {path}/{to}/Zenscribe-Web-App
-- Make sure that you have navigated to the right project in the Command Prompt and open a virtual environment by entering pipenv shell. 
-- Install all dependencies by entering pipenv install
-- Run the project by entering python3 webApp/app.py
-- You will see a message in the Command Prompt now telling you the address where you can access the app. Paste this into your browser.
+Sometimes, a customer support agent might need a transcription and summary at a moment's notice. Additionally, they may have questions about a customer's issue that cannot be easily or efficiently answered by reading the summary and transcription. This web app is designed to solve these issues, giving agents a handy tool that can be used when they need it. For more details, please see the original repository [Zenscribe](https://github.com/Nmeng01/Zenscribe).
+
+## Functionality
+
+1. **Transcribe and Summarize Individual Tickets** Simply provide the ticket id and the call will be transcribed and summarized on the spot.
+2. **ChatGPT functionality** Ask a question about a specific ticket and OpenAI will do its best to provide an answer.
+3. More features coming soon...
+
