@@ -6,7 +6,7 @@ Sometimes, a customer support agent might need a transcription and summary at a 
 
 ## Functionality
 
-1. **Transcribe and Summarize Individual Tickets** Simply provide the ticket id and the call will be transcribed and summarized on the spot.
-2. **ChatGPT functionality** Ask a question about a specific ticket and OpenAI will do its best to provide an answer.
+1. **Transcribe and Summarize Individual Tickets:** Simply provide the ticket id and the call will be transcribed and summarized on the spot.
+2. **ChatGPT functionality:** Ask a question about a specific ticket and OpenAI will do its best to provide an answer.
 3. More features coming soon...
 
